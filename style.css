@@ -1,0 +1,372 @@
+@import url('https://fonts.googleapis.com/css2?family=Changa:wght@200..800&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Changa"  ;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+header {
+    display : flex;
+    justify-content: space-between;
+    background-color: #9055e2;
+    align-items: center;
+    color: white;
+    padding: 0px 100px ;
+    border-top: solid  #FF73CB  5px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+
+}
+header a {
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+    font-size: 20px;
+    transition: ease 1s;
+}
+header a:hover {
+color :#FF73CB;
+font-size: 22px;
+}
+.carsour {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    color: white;
+    padding:90px;
+    background-image: url(img/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0,0, .3);
+    background-position: center;
+}
+#prgraph{
+    margin-top: 55vh;
+    padding:15%;
+}
+
+#btn1
+{
+    margin-top: 5px;
+    font-size: 15px;
+    color: white;
+background-color: #9055e2;
+padding: 8px;
+border-radius: 5px 20px 5px ;
+border: 0px;
+transition: ease 1s ;
+}
+#btn1:hover{
+    background-color:#FF73CB;
+    font-size: 17px ;
+}
+.servies h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color :#FF73CB ;
+}
+.servies .container
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0px 80px;
+    
+
+}
+
+.servies .card
+{
+   border-radius: 10px;
+    margin-right: 20px;
+    box-shadow: 3px 3px 6px 6px  #d1ece9;
+    padding: 20px;
+    width: 20rem;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.card h3
+{
+    color: #FF73CB;
+    font-size: 15px;
+}
+.card p {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+#btn2
+{
+    margin-top: 5px;
+    font-size: 12px;
+    color: white;
+background-color: #9055e2;
+padding: 8px;
+border-radius: 5px 20px 5px ;
+border: 0px;
+transition: ease 1s ;
+
+}
+#btn2:hover{
+    background-color:#FF73CB;
+    font-size: 14px ;
+}
+#icon {
+    font-size: 40px;
+    color: #9055e2;
+}
+#h2_port
+{
+    text-align: center;
+    color:#9055e2
+}
+.portfolio {
+    background-color:rgba(233, 236, 239, .5) ;
+    border-radius: 20px;
+    margin: 15px;
+   
+}
+.continer-port {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; 
+    padding: 20px;
+   
+    
+}
+.card_port 
+{
+  
+    background-color: white;
+    
+    box-shadow: 2px 2px 4px 4px  #d1ece9;
+    border-radius: 20px;
+    margin-right: 25px;
+    margin-bottom: 20px;
+    padding-bottom: 30px;
+    width: 22em;
+    overflow: hidden;
+    
+}
+.card_dec{
+    margin: 0px 10px;
+    text-align: center;
+}
+.portfolio img{
+    width: 22em;
+    object-fit: cover;
+}
+.corses
+{
+    padding:50px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.img_prg
+{
+   
+  
+    height:18em; 
+    width: 20em; 
+      object-fit: cover;
+   margin-right:60px;
+    border-radius: 15px ;
+    overflow: hidden;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;;
+   
+}
+.prg
+{
+    width: 50%;
+    text-align: center;
+    
+}
+.notila{
+    padding: 50px;
+    background-image:url(img/istockphoto-1356364287-2048x2048.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    background-blend-mode: overlay;
+    min-height: 200hv;
+   text-align: center;
+   
+
+
+}
+.notila img {
+ap
+{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+     border-radius: 50%;
+      width: 20em;
+      height: 20em ;
+      margin-right: 20px;
+      border: #d1ece9 solid;
+      
+}
+.prg2
+{
+    margin-right: 50px;
+    width: 50%;
+    text-align: center;
+}
+.img_prg2
+{
+    
+    height:18em; 
+    width: 20em; 
+      object-fit: cover;
+    border-radius: 15px ;
+    overflow: hidden;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;;
+
+}
+footer{
+    color: white;
+    background-color: #9055e2;
+    padding: 20px;
+    text-align: center;
+
+
+}
+
+
+.contact
+{
+    
+    margin:10px 10%;
+    border-radius: 50px;
+    height: 600px;
+    text-align: center;
+    padding: 20px 100px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(108,36,142,0.8072478991596639) 0%, rgba(131,44,165,1) 39%, rgba(223,109,190,0.571953781512605) 67%);
+}
+   
+.section-header{
+ text-align: center;
+ margin-bottom: 25px;
+ color: #ffffff;
+}
+.contact-wrapper
+{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.btn3
+{
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 20px;
+}
+.btn3:hover
+{
+    font-size: 15px;
+    color: #FF73CB;
+}
+.form-control{
+    margin-bottom: 15px;
+    
+    width: 50%;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    padding: 10px;
+}
+.map
+{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+}
+
+.map iframe
+{
+    width: 100%;
+}
+    
+.map div {
+    width: 100%;
+    padding: 15px;
+    border-radius: 25px;
+    box-shadow:1px 1px 4px 4px #d7a4c5;
+
+}
+    
+
+
+
+
+
+/*
+.map{
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+   
+
+    
+}
+.map div {
+    width: 100%;
+    padding: 15px;
+    border-radius: 25px;
+     box-shadow: 1px 1px 4px 4px  #f6d0e9;
+
+}
+
+.map iframe
+{
+    width: 100%;
+}
+  */  
+
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  /* Track */
+  ::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey; 
+    border-radius: 10px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background:#FF73CB; 
+    border-radius: 10px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background:#9055e2; 
+  }
+  .up
+  {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color:#FF73CB;
+    padding: 10px;
+    border-radius: 50%;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+
+  }
